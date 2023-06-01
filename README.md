@@ -6,15 +6,14 @@ This project aims to create an Optical Character Recognition for Bank Statements
   
   1. Overview
   2. [Pre-requisite](#Pre-requisite)
-  3. Install Tesseract
-  4. OCR for Bank Statements
+  3. [Tesseract](#Install Tesseract)
+  4. [OCR for Bank Statements](#OCR for Bank Statements)
      * Import Libraries
      * EDA
      * Model Architecture
      * Model Performance
   5. Bank Statement Classfication Model
      * Import Libraries
-     * EDA
      * Model Architecture
      * Model Performance
   6. References
@@ -54,3 +53,8 @@ It may take several minutes to complete the installation.
 ### 2. Check the path of Tesseract
 <code> which tesseract </code>  
 <code> brew list tesseract </code>
+
+# OCR for Bank Statements
+In this part, I mainly tried 2 different model achitrecures and compared their performance. 
+
+![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/f1103296-3797-48b5-85eb-b6a29df3bec6)
