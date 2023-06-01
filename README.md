@@ -1,6 +1,26 @@
 # OCR_for_Bank_Statement
 This project aims to create an Optical Character Recognition for Bank Statements and explored the approach to upscale the low resolution images. Besides, this project also trained an SVM model for Bank Statement Classification with 100% accuracy.  
 
+<details>
+  <summary><B>Table of Content</B></summary>
+  
+  1. Overview
+  2. [Pre-requisite](#Pre-requisite)
+  3. Install Tesseract
+  4. OCR for Bank Statements
+     * Import Libraries
+     * EDA
+     * Model Architecture
+     * Model Performance
+  5. Bank Statement Classfication Model
+     * Import Libraries
+     * EDA
+     * Model Architecture
+     * Model Performance
+  6. References
+
+</details>
+
 # Pre-requisite  
 ## Homebrew for Mac  
 
