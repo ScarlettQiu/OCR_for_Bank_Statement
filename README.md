@@ -8,12 +8,9 @@ This project aims to create an Optical Character Recognition for Bank Statements
   2. [Pre-requisite](#Pre-requisite)
   3. [Install Tesseract](#InstallTesseract)
   4. [OCR for Bank Statements](#OCRforBankStatements)
-     * Import Libraries
-     * EDA
      * Model Architecture
      * Model Performance
-  5. Bank Statement Classfication Model
-     * Import Libraries
+  5. [Bank Statement Classfication Model](#BankStatementClassficationModel)
      * EDA
      * Model Architecture
      * Model Performance
@@ -63,7 +60,7 @@ About Tesseract: https://github.com/tesseract-ocr/tesseract
 Once we have the homebrew installed, we could start to install Terresact.  
 
 # Install Tesseract  
-#### 1. Run below the command
+### 1. Run below the command
 <code> brew install tesseract </code>  
 It may take several minutes to complete the installation.   
 ![image](https://user-images.githubusercontent.com/93269907/232904805-e74328b7-c444-43d5-bf8d-a7a5d719bdae.png)
@@ -80,4 +77,29 @@ In this part, I mainly tried 2 different model achitrecures and compared their p
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/d032df54-8318-49e9-a3e1-a1b391b878f3)
 
 
+# Bank Statement Classfication Model
 
+![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/2a72d9be-217d-4ca1-b1e8-eed169555773)
+
+### EDA  
+There are 3 types of bank statement in this dataset: Loan, Transaction and Payment.
+
+![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/549098f4-462f-4529-9680-511d5d341888)
+
+Each type contains 5 different bank statement images. 
+
+Below is the WordCloud for each bank statement. We could find the most common words in each bank statement.   
+
+![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/5d76fcd0-6abf-4d4d-9aa1-081005b1bf2c)
+
+### Model Architecture   
+![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/7406498d-6f78-4ed5-abd5-73bb074faf19)
+
+
+### Model Performance
+The accuracy of the SVM model is 100%.  
+
+![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/17cd94c0-0668-4fdc-b1ff-a6c57be96c28)
+
+I also tried to train a Random Forest model for the classification. However, the accuracy of the random forest model is only 33.3% even after the hyperparameter tuning. 
+It seems that text is often linearly seperable, so the SVM model using Linear Kernel has a very good performance. 
