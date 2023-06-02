@@ -84,7 +84,8 @@ In this part, I mainly tried 2 different model achitrecures and compared their p
 ### EDA  
 There are 3 types of bank statement in this dataset: Loan, Transaction and Payment.
 
-![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/549098f4-462f-4529-9680-511d5d341888)
+![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/b5444ba7-04a5-4d00-a058-935949e10f49)
+
 
 Each type contains 5 different bank statement images. 
 
