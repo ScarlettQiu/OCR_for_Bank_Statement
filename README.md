@@ -9,11 +9,13 @@ This project aims to create an Optical Character Recognition for Bank Statements
   3. [Install Tesseract](#InstallTesseract)
   4. [OCR for Bank Statements](#OCRforBankStatements)
      * Model Architecture
+       * 1. OpenCV + PyTesseract
+       * 2. FSRCNN + PyTesseract
      * Accuracy Comparison
   5. [Bank Statement Classfication Model](#BankStatementClassficationModel)
-     * [EDA](###EDA)
-     * [Model Architecture](#ModelArchitecture)
-     * [Model Performance](#ModelPerformance)
+     * EDA
+     * Model Architecture
+     * Model Performance
   6. References
 
 </details>
@@ -70,7 +72,9 @@ It may take several minutes to complete the installation.
 <code> brew list tesseract </code>
 
 # OCR for Bank Statements
-In this part, I mainly tried 2 different model achitrecures and compared their performance.
+In this part, I mainly tried 2 different model achitrecures and compared their performance.  
+
+## Model Architecture  
 
 ### 1. OpenCV + PyTesseract
 
@@ -81,7 +85,7 @@ In this part, I mainly tried 2 different model achitrecures and compared their p
 ### 2. FSRCNN + PyTesseract
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/d032df54-8318-49e9-a3e1-a1b391b878f3)
 
-### Accuracy Comparison
+## Accuracy Comparison
 
 <img width="814" alt="image" src="https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/f2fb485d-9e9f-4cfd-8c80-6cefde64f187">
 
@@ -90,7 +94,7 @@ In this part, I mainly tried 2 different model achitrecures and compared their p
 
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/2a72d9be-217d-4ca1-b1e8-eed169555773)
 
-### EDA  
+## EDA  
 There are 3 types of bank statement in this dataset: Loan, Transaction and Payment.
 
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/b5444ba7-04a5-4d00-a058-935949e10f49)
@@ -102,11 +106,11 @@ Below is the WordCloud for each bank statement. We could find the most common wo
 
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/5d76fcd0-6abf-4d4d-9aa1-081005b1bf2c)
 
-### Model Architecture   
+## Model Architecture   
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/7406498d-6f78-4ed5-abd5-73bb074faf19)
 
 
-### Model Performance
+## Model Performance
 The accuracy of the SVM model is 100%.  
 
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/17cd94c0-0668-4fdc-b1ff-a6c57be96c28)
