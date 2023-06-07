@@ -4,16 +4,16 @@ This project aims to create an Optical Character Recognition for Bank Statements
 <details>
   <summary><B>Table of Content</B></summary>
   
-  1. Overview
+  1. [Overview](#Overview)
   2. [Pre-requisite](#Pre-requisite)
   3. [Install Tesseract](#InstallTesseract)
   4. [OCR for Bank Statements](#OCRforBankStatements)
-     * Model Architecture
-     * Model Performance
+     * [Model Architecture](#ModelArchitecture)
+     * [Accuracy Comparison](#AccuracyComparison)
   5. [Bank Statement Classfication Model](#BankStatementClassficationModel)
-     * EDA
-     * Model Architecture
-     * Model Performance
+     * [EDA](#EDA)
+     * [Model Architecture](#ModelArchitecture)
+     * [Model Performance](#ModelPerformance)
   6. References
 
 </details>
@@ -70,11 +70,20 @@ It may take several minutes to complete the installation.
 <code> brew list tesseract </code>
 
 # OCR for Bank Statements
-In this part, I mainly tried 2 different model achitrecures and compared their performance. 
+In this part, I mainly tried 2 different model achitrecures and compared their performance.
+
+### 1. OpenCV + PyTesseract
 
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/186440fc-49fc-4934-9a08-98959ec36f97)
+#### Parameters & Accuracy  
+<img width="563" alt="image" src="https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/af1892cb-97d0-4c1d-bd5c-55129a0c4cbb">
 
+### 2. FSRCNN + PyTesseract
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/d032df54-8318-49e9-a3e1-a1b391b878f3)
+
+### Accuracy Comparison
+
+<img width="814" alt="image" src="https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/f2fb485d-9e9f-4cfd-8c80-6cefde64f187">
 
 
 # Bank Statement Classfication Model
