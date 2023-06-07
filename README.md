@@ -8,10 +8,10 @@ This project aims to create an Optical Character Recognition for Bank Statements
   2. [Pre-requisite](#Pre-requisite)
   3. [Install Tesseract](#InstallTesseract)
   4. [OCR for Bank Statements](#OCRforBankStatements)
-     * [Model Architecture](#ModelArchitecture)
-     * [Accuracy Comparison](#AccuracyComparison)
+     * Model Architecture
+     * Accuracy Comparison
   5. [Bank Statement Classfication Model](#BankStatementClassficationModel)
-     * [EDA](#EDA)
+     * [EDA](###EDA)
      * [Model Architecture](#ModelArchitecture)
      * [Model Performance](#ModelPerformance)
   6. References
