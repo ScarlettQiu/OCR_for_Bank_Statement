@@ -16,7 +16,7 @@ This project aims to create an Optical Character Recognition for Bank Statements
      * EDA
      * Model Architecture
      * Model Performance
-  6. References
+  6. [References](#References)
 
 </details>
 
@@ -117,3 +117,6 @@ The accuracy of the SVM model is 100%.
 
 I also tried to train a Random Forest model for the classification. However, the accuracy of the random forest model is only 33.3% even after the hyperparameter tuning. 
 It seems that text is often linearly seperable, so the SVM model using Linear Kernel has a very good performance. 
+
+# References
+
