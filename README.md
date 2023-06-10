@@ -119,4 +119,11 @@ I also tried to train a Random Forest model for the classification. However, the
 It seems that text is often linearly seperable, so the SVM model using Linear Kernel has a very good performance. 
 
 # References
+Nurfikri, F. (2022, November 1). How to build optical character recognition (OCR) in Python. Built In. Retrieved April 19, 2023, from https://builtin.com/data-science/python-ocr  
+Ariga, A. (2017, January 9). Tabula-py: Extract table from PDF into python dataframe. Democratizing Data. Retrieved April 26, 2023, from https://chezo.uno/blog/2017-01-09_tabula-py--extract-table-from-pdf-into-python-dataframe-6c7acfa5f302/
 
+Chinenov, T. (2019, February 1). Using image data to determine text structure. Medium. Retrieved April 27, 2023, from https://towardsdatascience.com/using-image-data-to-determine-text-structure-5c361e76aae
+
+Shperber, G. (2021, February 15). A gentle introduction to OCR. Medium. Retrieved April 27, 2023, from https://towardsdatascience.com/a-gentle-introduction-to-ocr-ee1469a201aa
+
+Yasserh. (2022, August 4). Document_OCR_Scanner. Kaggle. Retrieved April 26, 2023, from https://www.kaggle.com/code/yasserh/document-ocr-scanner
