@@ -9,8 +9,8 @@ This project aims to create an Optical Character Recognition for Bank Statements
   3. [Install_Tesseract](#Install_Tesseract)
   4. [OCR_for_Bank_Statements](#OCR_for_Bank_Statements)
      * [Model_Architecture](#Model_Architecture)
-       * 1. [OpenCV+PyTesseract](#OpenCV+PyTesseract)
-       * 2. [FSRCNN+PyTesseract](#FSRCNN+PyTesseract)
+       * [1.OpenCV+PyTesseract](#1.OpenCV+PyTesseract)
+       * [2.FSRCNN+PyTesseract](#2.FSRCNN+PyTesseract)
      * [Accuracy_Comparison](#Accuracy_Comparison)
   5. [Bank_Statement_Classfication_Model](#Bank_Statement_Classfication_Model)
      * [EDA](#EDA)
@@ -71,7 +71,7 @@ It may take several minutes to complete the installation.
 <code> which tesseract </code>  
 <code> brew list tesseract </code>
 
-# OCR for Bank Statements
+# OCR_for_Bank_Statements
 In this part, I mainly tried 2 different model achitrecures and compared their performance.  
 
 ## Model Architecture  
