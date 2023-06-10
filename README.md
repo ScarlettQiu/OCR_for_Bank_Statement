@@ -6,16 +6,16 @@ This project aims to create an Optical Character Recognition for Bank Statements
   
   1. [Overview](#Overview)
   2. [Pre-requisite](#Pre-requisite)
-  3. [Install Tesseract](#InstallTesseract)
-  4. [OCR for Bank Statements](#OCRforBankStatements)
-     * Model Architecture
-       * 1. OpenCV + PyTesseract
-       * 2. FSRCNN + PyTesseract
-     * Accuracy Comparison
-  5. [Bank Statement Classfication Model](#BankStatementClassficationModel)
-     * EDA
-     * Model Architecture
-     * Model Performance
+  3. [Install_Tesseract](#Install_Tesseract)
+  4. [OCR_for_Bank_Statements](#OCR_for_Bank_Statements)
+     * [Model_Architecture](#Model_Architecture)
+       * 1. [OpenCV+PyTesseract](#OpenCV+PyTesseract)
+       * 2. [FSRCNN+PyTesseract](#FSRCNN+PyTesseract)
+     * [Accuracy_Comparison](#Accuracy_Comparison)
+  5. [Bank_Statement_Classfication_Model](#Bank_Statement_Classfication_Model)
+     * [EDA](#EDA)
+     * [Model_Architecture](#Model_Architecture)
+     * [Model_Performance](#Model_Performance)
   6. [References](#References)
 
 </details>
@@ -76,21 +76,21 @@ In this part, I mainly tried 2 different model achitrecures and compared their p
 
 ## Model Architecture  
 
-### 1. OpenCV + PyTesseract
+### 1. OpenCV+PyTesseract
 
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/186440fc-49fc-4934-9a08-98959ec36f97)
 #### Parameters & Accuracy  
 <img width="563" alt="image" src="https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/af1892cb-97d0-4c1d-bd5c-55129a0c4cbb">
 
-### 2. FSRCNN + PyTesseract
+### 2. FSRCNN+PyTesseract
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/d032df54-8318-49e9-a3e1-a1b391b878f3)
 
-## Accuracy Comparison
+## Accuracy_Comparison
 
 <img width="814" alt="image" src="https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/f2fb485d-9e9f-4cfd-8c80-6cefde64f187">
 
 
-# Bank Statement Classfication Model
+# Bank_Statement_Classfication_Model
 
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/2a72d9be-217d-4ca1-b1e8-eed169555773)
 
@@ -106,11 +106,11 @@ Below is the WordCloud for each bank statement. We could find the most common wo
 
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/5d76fcd0-6abf-4d4d-9aa1-081005b1bf2c)
 
-## Model Architecture   
+## Model_Architecture   
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/7406498d-6f78-4ed5-abd5-73bb074faf19)
 
 
-## Model Performance
+## Model_Performance
 The accuracy of the SVM model is 100%.  
 
 ![image](https://github.com/ScarlettQiu/OCR_for_Bank_Statement/assets/93269907/17cd94c0-0668-4fdc-b1ff-a6c57be96c28)
