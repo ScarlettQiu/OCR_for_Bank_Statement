@@ -74,7 +74,7 @@ It may take several minutes to complete the installation.
 # OCR_for_Bank_Statements
 In this part, I mainly tried 2 different model achitrecures and compared their performance.  
 
-## Model Architecture  
+## Model_Architecture  
 
 ### 1. OpenCV+PyTesseract
 
